@@ -27,7 +27,7 @@ class Perfil extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // Nome e titulos de trabalha
+           
             Text(
               'Erick Williams',
               style: theme.textTheme.titleLarge?.copyWith(
@@ -58,7 +58,7 @@ class Perfil extends StatelessWidget {
 
             const SizedBox(height: 30),
 
-            // CARDS DE INFORMAÇÕES
+            // cards de infomarção
             _buildInfoCard(
               icon: Icons.terminal,
               title: 'Especialidades',

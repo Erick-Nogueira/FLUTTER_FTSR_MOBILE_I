@@ -15,13 +15,13 @@ class Aplicacao extends StatelessWidget {
       title: 'App de Interesses',
       theme: ThemeData(
         brightness: Brightness.dark,
-        scaffoldBackgroundColor: const Color(0xFF0A0F1F), // fundo quase preto azulado
-        primaryColor: const Color(0xFF0D47A1), // azul escuro
+        scaffoldBackgroundColor: const Color(0xFF0A0F1F),
+        primaryColor: const Color(0xFF0D47A1), 
         colorScheme: ColorScheme.dark(
-          primary: const Color(0xFF2196F3), // azul padrão
-          secondary: const Color(0xFF00BCD4), // ciano vibrante
+          primary: const Color(0xFF2196F3), 
+          secondary: const Color(0xFF00BCD4), 
           surface: const Color(0xFF101522),
-          //background: const Color.fromARGB(255, 10, 15, 31),
+   
           onPrimary: Colors.white,
           onSecondary: Colors.white,
         ),
